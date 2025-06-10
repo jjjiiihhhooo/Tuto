@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Tutorial.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tutorial.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TutorialEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Tutorial">
+      <UniqueIdentifier>{22C618EA-3BE8-3BDC-BE04-251243239237}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Tutorial\Tutorial.Build.cs">
+      <Filter>Source\Tutorial</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Tutorial\Tutorial.cpp">
+      <Filter>Source\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tutorial\Tutorial.h">
+      <Filter>Source\Tutorial</Filter>
+    </ClCompile>
+    <Filter Include="Source\Tutorial\Player">
+      <UniqueIdentifier>{023A85D4-F749-3681-A0EB-928DACF37C7A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tutorial\Player\PlayerCharacter.cpp">
+      <Filter>Source\Tutorial\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tutorial\Player\PlayerCharacter.h">
+      <Filter>Source\Tutorial\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
