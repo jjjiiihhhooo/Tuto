@@ -1,6 +1,7 @@
 #include "Tutorial/Player/PlayerCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Tutorial/Components/HealthComponent.h"
 
 APlayerCharacter::APlayerCharacter()
 {
@@ -89,7 +90,12 @@ void APlayerCharacter::LineTrace()
 	if (HitResult.bBlockingHit)
 	{
 		AActor* ActorHit = HitResult.GetActor();
-		ActorHit->Destroy();
+		UHealthComponent* EnemyHit = ActorHit->FindComponentByClass<UHealthComponent>();
+
+		if (IsValid(EnemyHit))
+		{
+			EnemyHit->TakeDamage(Damage);
+		}
 	}
 }
 

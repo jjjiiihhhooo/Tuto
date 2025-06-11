@@ -43,6 +43,7 @@ protected:
 	void LookUp(float InputValue);
 
 	//Attack
+	UPROPERTY(EditAnywhere)
 	int Damage;
 	
 	void StartAttack();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TutorialModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd608b4f3f69c9b3156be29de78fd6650ebdf75a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dea36436f4b72ff148cd2f3c1580992022c0120f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TutorialModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TutorialModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,7 +18,9 @@
             "d:\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
             "d:\\jiho\\tuto\\tutorial\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial\\uht\\playercharacter.generated.h",
             "d:\\epicgames\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
-            "d:\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h"
+            "d:\\epicgames\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
+            "d:\\jiho\\tuto\\tutorial\\source\\tutorial\\components\\healthcomponent.h",
+            "d:\\jiho\\tuto\\tutorial\\intermediate\\build\\win64\\unrealeditor\\inc\\tutorial\\uht\\healthcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

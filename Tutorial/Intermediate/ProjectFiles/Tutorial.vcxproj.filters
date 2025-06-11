@@ -11,6 +11,7 @@
     <None Include="..\..\Source\TutorialEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +38,15 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Tutorial\Tutorial.h">
       <Filter>Source\Tutorial</Filter>
+    </ClCompile>
+    <Filter Include="Source\Tutorial\Components">
+      <UniqueIdentifier>{B200DF05-6705-3289-AAE7-6E2A451E9AA9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Tutorial\Components\HealthComponent.cpp">
+      <Filter>Source\Tutorial\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tutorial\Components\HealthComponent.h">
+      <Filter>Source\Tutorial\Components</Filter>
     </ClCompile>
     <Filter Include="Source\Tutorial\Player">
       <UniqueIdentifier>{023A85D4-F749-3681-A0EB-928DACF37C7A}</UniqueIdentifier>
