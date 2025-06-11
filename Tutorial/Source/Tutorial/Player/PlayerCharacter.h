@@ -27,12 +27,32 @@ public:
 
 protected:
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* Camera;
 
+	UPROPERTY(VisibleAnywhere)
+	class UStaticMeshComponent* SwordMesh;
+	
+	UPROPERTY(EditAnywhere)
+	class UAnimSequence* AttackAnimation;
+	
 	void MoveForward(float InputValue);
 	void MoveRight(float InputValue);
 
 	void Turn(float InputValue);
 	void LookUp(float InputValue);
+
+	//Attack
+	int Damage;
+	
+	void StartAttack();
+
+
+public:
+
+	UFUNCTION(BlueprintCallable)
+	void LineTrace();
+
+	UPROPERTY(BlueprintReadWrite)
+	bool bIsAttacking;
 };
